@@ -18,23 +18,23 @@
         },
         "TG_BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
-            "value": ""
+            "value": "6965733502:AAHknurnqfykgB6mXtYAk0ozmefjNwOoTOI"
         },
         "API_HASH": {
             "description": "Your API Hash from my.telegram.org or @UseTGXBot",
-            "value": ""
+            "value": "a0da2f0c10923e1c080fd86ab4c04051"
         },
         "API_ID": {
             "description": "Your APP ID from my.telegram.org or @UseTGXBot",
-            "value": ""
+            "value": "28983177"
         },
         "AUTH_USERS": {
             "description": "ID of users that can use the bot commands",
-            "value": ""
+            "value": "5076584501"
         },
         "DATABASE_URI": {
             "description": "Database URL from https://cloud.mongodb.com/",
-            "value": ""
+            "value": "mongodb+srv://sixom67481:QMF41NMTDOazw0tH@cluster0.toptapq.mongodb.net/"
         },
         "DATABASE_NAME": {
             "description": "Your database name from mongoDB. ( Default will 'Cluster0' )",
@@ -43,7 +43,7 @@
         },
         "SAVE_USER": {
             "description": "Do you need to save user details? Usefull for getting userinfo and total user counts. May reduce filter capacity. Give yes or no",
-            "value": "no",
+            "value": "yes",
             "required": false
         },
         "HEROKU_API_KEY": {
