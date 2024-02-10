@@ -13,32 +13,32 @@ def LOGGER(name: str) -> Logger:
 if bool(environ.get("WEBHOOK", False)):
 
     try:
-        API_ID = int(environ.get("API_ID", 1234))
+        API_ID = int(environ.get("API_ID", "28983177"))
     except Exception as e:
         print(f"API_ID Invalid: \n\nLogs: {e}")
 
     try:
-        API_HASH = environ.get("API_HASH", "")
+        API_HASH = environ.get("API_HASH", "a0da2f0c10923e1c080fd86ab4c04051")
     except Exception as e:
         print(f"API_HASH Invalid: \n\nLogs: {e}")
 
     try:
-        BOT_TOKEN = environ.get("BOT_TOKEN", "")
+        BOT_TOKEN = environ.get("BOT_TOKEN", "6965733502:AAHknurnqfykgB6mXtYAk0ozmefjNwOoTOI")
     except Exception as e:
         print(f"BOT_TOKEN Invalid: \n\nLogs: {e}")
 
     try:
-        DATABASE_URI = environ.get("DATABASE_URI", "")
+        DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://sixom67481:QMF41NMTDOazw0tH@cluster0.toptapq.mongodb.net/")
     except Exception as e:
         print(f"DATABASE_URI Invalid: \n\nLogs: {e}")
 
     try:
-        DATABASE_NAME = environ.get("DATABASE_NAME", "")
+        DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
     except Exception as e:
         print(f"DATABASE_NAME Invalid: \n\nLogs: {e}")
 
     try:
-        ADMINS = set(str(x) for x in environ.get("ADMINS", "").split())
+        ADMINS = set(str(x) for x in environ.get("ADMINS", "5076584501").split())
     except Exception as e:
         print(f"ADMINS Invalid: \n\nLogs: {e}")
 
